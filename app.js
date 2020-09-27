@@ -11,7 +11,7 @@ const blogRoutes = require('./router/blogRoutes');
 const app = express();
 
 const dbUri =
-  'mongodb+srv://alexon:alexon23@netninjablog.rvepc.mongodb.net/Articles?retryWrites=true&w=majority';
+  'mongoDbURI';
 
 mongoose
   .connect(dbUri, { useNewUrlParser: true, useUnifiedTopology: true })
